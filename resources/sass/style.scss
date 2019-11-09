@@ -38,6 +38,10 @@ section{
 .f-roboto-b{
 	font-family: roboto-bold;
 }
+
+.f-normal{
+	font-weight: normal;
+}
 //end font family
 
 
@@ -96,7 +100,14 @@ section{
 
 //end
 
-
+//flexbox
+.flex-center{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	vertical-align: middle;
+}
+//end flexbox
 
 //Positioning
 .pos-r{
@@ -711,3 +722,58 @@ ul.horizontal-list{
 }
 
 //end list style
+
+
+//Pagination
+
+.pagination{
+
+	ul{
+		list-style-type: none;
+		display: flex;	
+
+
+		li{
+			float: left;	
+
+			a{
+				text-decoration: none;
+					color: var(--grey);
+
+
+				.paginate-item{
+					min-height: 40px;
+					max-height: 40px;
+					background: #e4e4e4;
+					@include padding-x(16px);
+					@include padding-y(12px);
+					display: flex;	
+					justify-content: center;
+					align-items: center;
+					vertical-align: middle;
+					margin-right: 5px;	
+
+					img{
+						height: 19px;	
+					}
+
+					
+
+				}
+			}
+
+			.paginate-active{
+				color: #fff;
+
+				.paginate-item{
+					background: var(--primary);
+
+				}
+			}
+
+		}
+	}
+
+
+}
+//End pagination

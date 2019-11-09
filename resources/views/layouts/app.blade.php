@@ -76,7 +76,7 @@
 		    </nav>
        </header>
        @yield('content')
-       <footer class="footer w-100 d-f footer-box mt-5">
+       <footer class="footer w-100 d-f footer-box bg-white mt-5">
 			<div class="box-left"></div>
 			<div class="container">
 				<div class="inner-footer">

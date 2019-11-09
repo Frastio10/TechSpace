@@ -78,6 +78,10 @@ section {
   font-family: roboto-bold;
 }
 
+.f-normal {
+  font-weight: normal;
+}
+
 .f-primary {
   color: var(--primary);
 }
@@ -252,6 +256,16 @@ section {
 
 .p {
   line-height: 1.5;
+}
+
+.flex-center {
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: flex;
+  vertical-align: middle;
 }
 
 .pos-r {
@@ -732,4 +746,43 @@ ul.horizontal-list li {
   background: #eaeaea;
   display: block;
   float: left;
+}
+
+.pagination ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: flex;
+}
+.pagination ul li {
+  float: left;
+}
+.pagination ul li a {
+  text-decoration: none;
+  color: var(--grey);
+}
+.pagination ul li a .paginate-item {
+  min-height: 40px;
+  max-height: 40px;
+  background: #e4e4e4;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.pagination ul li a .paginate-item img {
+  height: 19px;
+}
+.pagination ul li .paginate-active {
+  color: #fff;
+}
+.pagination ul li .paginate-active .paginate-item {
+  background: var(--primary);
 }

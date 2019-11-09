@@ -15,7 +15,7 @@
 			<div class="container">
 				<div class="banner-right f-right">
 					<div class="">
-						<div class="bg-white shadow-sm">
+						<div class="bg-white shadow-sm border">
 							<b class="f-25 f-rufina-b">Tuangkan ide kreatif mu di TechSpace!</b>
 							<div class="clearfix"></div>
 							<p class="f-15 f-grey-8 p f-roboto res-block">Techspace  Di buat untuk mewadahi orang orang yang ingin menuangkan ide kreatifnya untuk membangun sebuah startup Ataupun bergabung dengan startup  yang yg sudah ada untuk menyalurkan bakat dan ide yang mereka miliki Techspace juga memberikan sebuah inspirasi melalui media bacaan yang di bagikan oleh pengguna dan dan di publikasi oleh admin

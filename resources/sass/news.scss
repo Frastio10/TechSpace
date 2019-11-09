@@ -1,0 +1,142 @@
+@import "./header";
+
+body{
+	padding-top: 50px;
+	margin-top: 50px;
+}
+
+.card{
+	background: none;
+
+	img.bring-back{
+		z-index: 1;
+		width: 44%;
+		height: 265px;
+		object-fit: cover;
+	}
+}
+
+.card-text{
+	min-width: 471px;
+	max-width: 471.48px;
+	display: block;
+	@include padding-y(13px);
+	@include padding-x(15px);
+	margin-left:-15px;
+	display: inline-block;	
+	z-index: 3;
+	box-sizing: border-box;
+	min-height: 246px;
+	max-height: 246px;
+
+	a{
+		margin-top: 15px;
+	} 
+
+	.pills{
+		margin-bottom: 5px;
+	}
+
+	.card-info{
+		@include margin-y(4px);
+
+
+		img{
+			margin-right: 5px;
+		}
+
+		span{
+	
+			&:nth-child(3){
+				margin-left: 10px;
+			}
+		}
+	}
+}
+
+.search-box{
+	height: 40px;
+
+
+	input{
+		padding-left: 15px;
+		border: none;
+
+	}
+
+	.search-icon{
+		padding: 10px;
+	}
+}
+
+.category{
+	padding: 16px;
+
+	ul{
+		margin-top: 7.5px;
+		li{
+			list-style: none;
+			@include padding-y(7.5px);
+			
+			a{
+				text-decoration: none;
+				color: var(--grey);
+			}
+
+			.active{
+				color: var(--primary);
+			}
+		}
+	}
+}
+
+@keyframes fixing-size{
+	from{
+		width: 49.9px;
+	}
+
+	to{
+		width: 50px;
+	}
+}
+
+.random-news{
+	@include padding-x(16px);
+	padding-top: 16px;
+
+	.dots-sm{
+		z-index: 88;
+	}
+
+	.list-wrapper{
+		margin-top: 20px;
+		
+		.list-item{
+		
+			.item{
+
+				img{
+					width: 50px;
+					height: 50px;
+					animation-name: fixing-size;
+  					animation-duration: 2000s;
+  					object-fit: cover;
+				}
+
+
+
+				span{
+					margin-left: 5px;
+				}
+			}
+
+			.line{
+				 width: 100%;
+			    height: 1px;
+			    background: #e8e8e8;
+			    margin-top: 8px;
+			    margin-bottom: 8px;
+			}
+		}
+	}
+}
