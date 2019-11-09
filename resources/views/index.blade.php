@@ -5,6 +5,26 @@
 <link rel="stylesheet" href="{{asset('css/home.css')}}">
 @endsection
 
+@section('nav-links')
+<li class="nav-item">
+					        <a class="nav-link" href="/news">Berita</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link" href="/diskusi">Diskusi</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link" href="/startup">Startup</a>
+					      </li>  
+					      <li class="nav-item">
+					        <a class="nav-link" href="/inspirasi">Inspirasi</a>
+					      </li>  
+					      <li class="nav-item">
+					        <a class="nav-link" href="/about">Tentang Kami</a>
+					      </li>  
+					      <li class="nav-item">
+					        <a class="nav-link" href="/inspirasi">Galeri</a>
+					      </li> 
+@endsection
 
 @section('content')
 <!-- Popups -->

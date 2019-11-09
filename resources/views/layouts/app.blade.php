@@ -19,24 +19,7 @@
 					</button>
 					<div class="collapse navbar-collapse" id="navbarNav">
 					    <ul class="navbar-nav f-roboto">
-					      <li class="nav-item">
-					        <a class="nav-link" href="/news">Berita</a>
-					      </li>
-					      <li class="nav-item">
-					        <a class="nav-link" href="/diskusi">Diskusi</a>
-					      </li>
-					      <li class="nav-item">
-					        <a class="nav-link" href="/startup">Startup</a>
-					      </li>  
-					      <li class="nav-item">
-					        <a class="nav-link" href="/inspirasi">Inspirasi</a>
-					      </li>  
-					      <li class="nav-item">
-					        <a class="nav-link" href="/about">Tentang Kami</a>
-					      </li>  
-					      <li class="nav-item">
-					        <a class="nav-link" href="/inspirasi">Galeri</a>
-					      </li>  
+					      @yield('nav-links') 
 					    </ul>
 					    <div class="popup-trigger ml-auto pos-r language">
 							<img src="images/indo-flag.svg" class="flag-lang" alt="">
@@ -60,7 +43,7 @@
 								<div class="popup-content d-none pos-a bring-front popup-profile">
 									<div class="bg-white list shadow-sm">
 										<ul class="list-group">
-										  <a class="list-group-item active" href="/settings">Amanda Aprilia</a>
+										  <a class="list-group-item" href="/settings">Amanda Aprilia</a>
 										  <a  class="list-group-item list-item" href="/settings">Akun</a>
 										  <a  class="list-group-item list-item" href="/chat">Pesan</a>
 										  <a  class="list-group-item list-item" href="/account">Pengaturan</a>
