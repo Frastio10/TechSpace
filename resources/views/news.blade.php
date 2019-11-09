@@ -44,7 +44,7 @@
 									</span>
 									<div class="cf"></div>
 									<h3 class="f-rufina-b f-18 mb-0">Membentengi Generasi Milenial dari Pengaruh Paham Radikal Negatif</h3>
-									<div class="d-flex f-lato f-grey card-info">
+									<div class="d-flex f-roboto f-grey card-info">
 										<img src="images/clock.svg" alt="">
 										<span class="f-12 d-ib f-roboto f-grey-8">18 Agustus 2019</span>
 										<span class="f-12 d-ib f-roboto f-grey-8">Oleh : Amanda Aprilia</span>
@@ -96,7 +96,7 @@
 		</div>
 		<div class="col-md-3">
 			<div class="search-box shadow-sm d-f">
-					<input type="text" class="w-100 ol-none f-lato f-13" placeholder="Cari berita lainnya" id="search_input_2">
+					<input type="text" class="w-100 ol-none f-roboto f-13" placeholder="Cari berita lainnya" id="search_input_2">
 					<button class="d-f bg-primary search-icon border-0 cs-p" id="search_button_2">
 						<img src="images/search.svg" alt="">
 					</button>

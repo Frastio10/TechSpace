@@ -76,7 +76,7 @@
 						
 					</div>
 					<div class="f-left footer-list">
-						<b class="f-lato">Navbar</b>
+						<b class="f-roboto">Navbar</b>
 						<ul class="no-decoration list-style-none">
 							
 							<li><a href="news.html">Berita</a></li>
@@ -87,7 +87,7 @@
 						</ul>
 					</div>
 					<div class="f-left footer-list">
-						<b class="f-lato">Lainnya</b>
+						<b class="f-roboto">Lainnya</b>
 						<ul class="no-decoration list-style-none">
 							
 							<li><a href="settings.html">Akun</a></li>
@@ -99,7 +99,7 @@
 					</div>
 					<div class="f-left footer-desc footer-desc-left">
 						
-							<span class="f-lato">Untuk tetap terhubung</span>
+							<span class="f-roboto">Untuk tetap terhubung</span>
 							<div class="mt-10">
 								<p class="">admin@techspace.id </p>
 							<p class="">+62 812-0000-0000</p>
@@ -113,7 +113,7 @@
 							
 					</div>
 					<span class="line-h"></span>
-					<span class="f-13 f-lato f-left made-by my-3">&#169; 2019 TechSpace By Bernice Team</span>
+					<span class="f-13 f-roboto f-left made-by my-3">&#169; 2019 TechSpace By Bernice Team</span>
 				</div>
 
 			</div>

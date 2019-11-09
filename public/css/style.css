@@ -697,7 +697,7 @@ footer .inner-footer .footer-desc {
 }
 footer .inner-footer .footer-desc p {
   margin-top: 22px;
-  font-family: lato;
+  font-family: roboto;
   font-size: 14px;
   color: #888888;
 }
@@ -727,7 +727,7 @@ footer .inner-footer .footer-list b {
 footer .inner-footer .footer-list ul li a {
   text-decoration: none;
   color: #888888;
-  font-family: lato;
+  font-family: roboto;
   font-size: 14px;
 }
 
