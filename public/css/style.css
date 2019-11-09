@@ -401,6 +401,9 @@ nav.navbar .list-item {
 nav.navbar .list-item:hover {
   background: var(--darken-white);
 }
+nav.navbar .username {
+  background: var(--primary);
+}
 nav.navbar .list-group-item,
 nav.navbar .list-group-item:first-child,
 nav.navbar .list-group-item:last-child {

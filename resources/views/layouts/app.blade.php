@@ -43,7 +43,7 @@
 								<div class="popup-content d-none pos-a bring-front popup-profile">
 									<div class="bg-white list shadow-sm">
 										<ul class="list-group">
-										  <a class="list-group-item" href="/settings">Amanda Aprilia</a>
+										  <a class="list-group-item username" href="/settings">Amanda Aprilia</a>
 										  <a  class="list-group-item list-item" href="/settings">Akun</a>
 										  <a  class="list-group-item list-item" href="/chat">Pesan</a>
 										  <a  class="list-group-item list-item" href="/account">Pengaturan</a>
