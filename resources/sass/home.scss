@@ -1,0 +1,38 @@
+@import "./header";
+
+.card-img-top{
+	object-fit: cover;
+    min-height: 138px;
+    max-height: 138px;
+}
+
+.banner{
+
+	.bg-white{
+		padding-top: 50px;
+		padding-bottom: 50px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	
+
+
+	.banner-image-1{
+		width: 100%;
+		background-image: url('../images/bannerimg-5.jpg');
+		background-size: 60% 100%;
+		background-repeat: no-repeat;
+	}
+
+	.banner-right{
+		padding-bottom: 150px;
+		padding-top: 190px;
+		width: 55%;
+
+		p{
+			margin-top: 15px;
+			line-height: 20px;
+		}
+
+	}
+}
