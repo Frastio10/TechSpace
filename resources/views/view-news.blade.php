@@ -57,7 +57,7 @@
   										</button>
 									
 									
-  										<button onclick="loveAdd()" class="mr-3 love-btn border-0 bg-white">
+  										<button onclick="" class="mr-3 love-btn border-0 bg-white">
   											<div class="f-left cs-p love" id="love">
   												<svg xmlns="http://www.w3.org/2000/svg" width="28.496" height="25.11" viewBox="0 0 28.496 25.11">
   												  <path id="heart_1_" data-name="heart (1)" d="M26,5.041a6.972,6.972,0,0,0-9.862,0L14.8,6.385,13.453,5.041A6.973,6.973,0,0,0,3.591,14.9l1.344,1.344L14.8,26.108l9.862-9.862L26,14.9a6.972,6.972,0,0,0,0-9.862Z" transform="translate(-0.549 -1.998)" fill="none" stroke="#1592e6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
@@ -66,7 +66,7 @@
   										</button>
 									
   									<div class="mr-3 f-left cs-p slide-trigger" id="comment">
-  										<button class="d-flex flex-center border-0 bg-white" onclick="slideToggle()">
+  										<button class="d-flex flex-center border-0 bg-white" onclick="">
   											<img class="cs-p" src="images/message-square.svg" alt="">
   										</button>
   									</div>
