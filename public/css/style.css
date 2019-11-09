@@ -357,6 +357,8 @@ section {
   display: -webkit-box;
   display: flex;
   position: relative;
+  min-height: 204px;
+  max-height: 204px;
 }
 .image-hover .hover {
   opacity: 0;
@@ -373,6 +375,8 @@ section {
   transition: 0.3s ease;
 }
 .image-hover img {
+  -o-object-fit: cover;
+  object-fit: cover;
   width: 100%;
 }
 .image-hover:hover .hover {
@@ -785,4 +789,111 @@ ul.horizontal-list li {
 }
 .pagination ul li .paginate-active .paginate-item {
   background: var(--primary);
+}
+
+.video-backdrop {
+  display: none;
+  z-index: -9999;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.video-backdrop.active {
+  display: block;
+  opacity: 1;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  position: fixed;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 9999999;
+  background: rgba(0, 0, 0, 0.4);
+}
+.video-backdrop.active .video-close {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  padding: 10px;
+  display: -webkit-box;
+  display: flex;
+  top: -15px;
+  cursor: pointer;
+  right: -15px;
+  background: #fff;
+  border-radius: 100%;
+}
+.video-backdrop.active .video-close img {
+  width: 100%;
+}
+.video-backdrop.active .video-popup {
+  cursor: auto;
+  position: relative;
+  width: 60%;
+  background: #fff;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  padding: 10px;
+}
+.video-backdrop.active .video-popup video {
+  width: 100%;
+}
+
+.image-modalview-backdrop.active {
+  opacity: 1;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  z-index: 99999999;
+}
+
+.close-popup {
+  background: #fff;
+  width: 15px;
+  height: 15px;
+  padding: 5px;
+  border-radius: 100%;
+  top: -10px;
+  right: -10px;
+  cursor: pointer;
+}
+.close-popup img {
+  width: 100%;
+}
+
+.image-modalview-backdrop {
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -999;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.6);
+}
+.image-modalview-backdrop .image-modalview {
+  display: -webkit-box;
+  display: flex;
+  width: 60%;
+  z-index: 999999999999999;
+  cursor: auto;
+}
+
+.backdrop.active {
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
 }

@@ -24,7 +24,7 @@
   									</span>
   								</div>
   								<div class="cf"></div>
-  								<p id="desc" class="f-roboto f-15 f-grey-8 mt-16">
+  								<p id="desc" class="f-roboto f-15 f-grey-8 mt-3">
   									Qualcomm memberikan kejutan yang menarik di perhelatan IFA 2019. Mereka mengumumkan rencana untuk memperluas penetrasi 5G dengan menghadirkannya di ponsel kelas menengah.<br><br>Selama ini 5G hanya ditemui di perangkat flagship yang ditenagai Snapdragon seri 8. Harganya yang cukup mahal membuat ponsel 5G belum terjangkau bagi semua orang.<br><br>Jelang komersialisasi 5G secara global, Qualcomm berencana memperluas portfolio mobile platform 5G di chipset Snapdragon seri 7 dan 6 tahun depan.<br><br>"Untuk mempercepat komersialisasi 5G untuk skala global dengan mitra OEM dan operator kami dengan penawaran mobile platform kami di Snapdragon Seri 8, Seri 7 dan Seri 6 kami pada tahun 2020," kata Alex Katouzian, Senior Vice President dan General Manager, Mobile, Qualcomm Technologies.<br><br>Untuk Snapdragon Seri 7 akan memiliki 5G yang diintegrasikan ke dalam SoC (System-on-Chip) dan mendukung semua wilayah dan pita frekuensi secara global. Platform mobile yang dibangun pada proses teknologi 7nm akan dibekali fitur-fitur premium, termasuk generasi selanjutnya dari Qualcomm AI Engine dan fitur Qualcomm Snapdragon Elite Gaming, untuk audiens yang lebih luas.<br><br>Dua belas OEM dan merek global terkemuka dipastikan akan menggunakan Snapdragon seri 7 5G di ponselnya. Vendor tersebut di antaranya Oppo, Realme, Redmi, Vivo, Motorola, HMD Global, Nokia, LG Electronics. Ponsel Snapdragon seri 7 5G diharapkan sampai ke tangan konsumen pada kuartal pertama tahun depan. Rincian lengkap dari platform ini akan diungkapkan pada akhir 2019 ini.<br><br>Sementara mobile platform Snapdragon seri 6 5G diharapkan akan tersedia secara komersial pada paruh kedua tahun 2020. Diyakini Qualcomm ini akan sangat memperluas jangkauan 5G secara global.<br><br>Sumber: <a href="detik.com">detik.com</a>
   								</p>
   								<div class="d-flex mt-30 pos-r">
@@ -56,7 +56,7 @@
 		</div>
 		<div class="col-md-3">
 			<div class="search-box shadow-sm d-f">
-					<input type="text" class="w-100 ol-none f-lato f-13" placeholder="Cari berita lainnya" id="search_input_2">
+					<input type="text" class="w-100 ol-none f-roboto f-13" placeholder="Cari berita lainnya" id="search_input_2">
 					<button class="d-f bg-primary search-icon border-0 cs-p" id="search_button_2">
 						<img src="images/search.svg" alt="">
 					</button>
@@ -76,7 +76,7 @@
 					<div class="w-100 list-wrapper" id="root_2">
 						@for ($i = 0; $i < 4; $i++)
 							<div class="list-item w-100 d-flex flex-column">
-								<a href="{link}" class=" text-decoration-none f-grey-8">
+								<a href="view-news" class=" text-decoration-none f-grey-8">
 									<div class="item">
 										<div class="d-f align-items-center">
 											<img src="images/news-thumb-13.jpeg" class="w-100 random-thumb" alt="">

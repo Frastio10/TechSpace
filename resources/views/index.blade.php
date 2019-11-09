@@ -7,6 +7,26 @@
 
 
 @section('content')
+<!-- Popups -->
+<div class="video-backdrop">
+	<div class="video-popup">
+		<video controls autoplay src="" class="video-target"></video>
+		<div class="video-close" data-target="video/video-2.mp4">
+			<img src="images/close-2.png" alt="">
+		</div>
+	</div>
+</div>
+
+<div class="image-modalview-backdrop pos-f d-flex flex-center">
+	<div class="image-modalview pos-r">
+		<div class="close-popup d-flex flex-center pos-a">
+			<img src="images/close.png" alt="">
+		</div>
+		<img src="" alt="" class="w-100" id="image-modal">
+	</div>
+</div>
+<!-- End popups -->
+
 
 <!-- Banner -->
 <section id="banner">
@@ -50,7 +70,7 @@
 				    	<span class="f-lato f-12 f-grey-8 ml-1">18 agustus 2019</span>
 				    </div>
 				    <p class="f-14 f-roboto f-grey-8">Google meluncurkan fitur baru untuk Google Assistant di IFA 2019, yaitu Ambient Mode</p>
-				    <a href="#" class="btn btn-primary rounded-0 f-12">Baca selengkapnya</a>
+				    <a href="view-news" class="btn btn-primary rounded-0 f-12">Baca selengkapnya</a>
 				  </div>
 				</div>
 			</div>
@@ -64,7 +84,7 @@
 				    	<span class="f-lato f-12 f-grey-8 ml-1">18 agustus 2019</span>
 				    </div>
 				    <p class="f-14 f-roboto f-grey-8">Estafet petani selanjutnya adalah pada pundak generasi muda, mereka mempunyai inovasi</p>
-				    <a href="#" class="btn btn-primary rounded-0 f-12">Baca selengkapnya</a>
+				    <a href="view-news" class="btn btn-primary rounded-0 f-12">Baca selengkapnya</a>
 				  </div>
 				</div>
 			</div>
@@ -78,7 +98,7 @@
 				    	<span class="f-lato f-12 f-grey-8 ml-1">18 agustus 2019</span>
 				    </div>
 				    <p class="f-14 f-roboto f-grey-8">Kemajuan teknologi dan informasi tidak hanya berdampak positif, negatif juga</p>
-				    <a href="#" class="btn btn-primary rounded-0 f-12">Baca selengkapnya</a>
+				    <a href="view-news" class="btn btn-primary rounded-0 f-12">Baca selengkapnya</a>
 				  </div>
 				</div>
 			</div>
@@ -92,7 +112,7 @@
 				    	<span class="f-lato f-12 f-grey-8 ml-1">18 agustus 2019</span>
 				    </div>
 				    <p class="f-14 f-roboto f-grey-8">Wismilak Foundation kembali menggelar kompetisi Diplomat Success Challenge</p>
-				    <a href="#" class="btn btn-primary rounded-0 f-12">Baca selengkapnya</a>
+				    <a href="view-news" class="btn btn-primary rounded-0 f-12">Baca selengkapnya</a>
 				  </div>
 				</div>
 			</div>
@@ -342,13 +362,13 @@
 			<div class="col-md-6">
 				<div class="video-wrapper d-f pos-r  d-f justify-content-center align-items-center">
 					<img src="images/bg_teks.png" class="" alt="">
-					<img src="images/playbutton.svg" alt="" class="pos-a cur-p">
+					<img src="images/playbutton.svg" alt="" class="pos-a cur-p playbutton">
 				</div>
 			</div>
 			<div class="col-md-6">
 				<div class="video-wrapper d-f  pos-r d-f justify-content-center align-items-center">
 					<img src="images/bg_teks.png" class="" alt="">
-					<img src="images/playbutton.svg" alt="" class="pos-a cur-p">
+					<img src="images/playbutton.svg" alt="" class="pos-a cur-p playbutton">
 				</div>
 			</div>
 			<div class="w-100 d-f justify-content-center pt-4">
@@ -465,7 +485,7 @@
 				<div class="col-md-4">
 					<div class="image-hover">
 						<div class="hover"></div>
-						<img src="images/gallery/gallery-1-300x200.jpg" alt="">
+						<img src="images/gallery/gallery-2-300x200.jpg" alt="">
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -477,7 +497,7 @@
 				<div class="col-md-4">
 					<div class="image-hover">
 						<div class="hover"></div>
-						<img src="images/gallery/gallery-1-300x200.jpg" alt="">
+						<img src="images/gallery/gallery-3-300x200.jpg" alt="">
 					</div>
 				</div>
 				<div class="w-100 d-f justify-content-center pt-4">

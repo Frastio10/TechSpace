@@ -230,6 +230,8 @@ section{
 .image-hover{
 	display: flex;
 	position: relative;
+	min-height: 204px;
+	max-height: 204px;
 
 	.hover{
 		opacity: 0;
@@ -246,6 +248,7 @@ section{
 	}
 
 	img{
+		object-fit: cover;
 		width: 100%;
 	}
 
@@ -777,3 +780,109 @@ ul.horizontal-list{
 
 }
 //End pagination
+
+//Popup
+.video-backdrop{
+	display: none;
+	z-index: -9999;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.video-backdrop.active{
+	display: block;
+	opacity: 1;
+	transition: .3s ease;
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 9999999;
+	background: rgba(0,0,0,0.4);
+
+	.video-close{
+		position: absolute;
+		width: 10px;
+		height: 10px;
+		padding: 10px;
+		display: flex;
+		top: -15px;
+		cursor: pointer;
+		right: -15px;
+		background: #fff;
+		border-radius: 100%;
+
+
+		img{
+			width: 100%;
+		}
+	}
+
+	.video-popup{
+		cursor: auto;
+		position: relative;
+		width: 60%;
+		background: #fff;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 10px;
+
+		video{
+			width: 100%;
+		}
+	}
+}
+
+.image-modalview-backdrop.active{
+	opacity: 1;
+	transition: .3s ease;
+	z-index: 99999999;
+}
+
+.close-popup{
+	background: #fff;
+	width: 15px;
+	height: 15px;
+	padding: 5px;
+	border-radius: 100%;
+
+	top: -10px;
+	right: -10px;	
+	cursor: pointer;
+
+	img{
+		width: 100%;
+	}
+}
+
+.image-modalview-backdrop{
+	transition: .3s ease;
+	opacity: 0;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: -999;
+	cursor: pointer;
+	background: rgba(0, 0, 0, 0.6);
+
+
+	.image-modalview{
+		display: flex;
+		width: 60%;
+		z-index: 999999999999999;
+		cursor: auto;
+	}
+}
+
+.backdrop.active{
+	z-index: 100;
+	background: rgba(0,0,0,.5);
+	transition: .2s ease;
+}
+//end popup
